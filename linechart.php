@@ -5,8 +5,8 @@
    src="http://code.jquery.com/jquery-3.3.1.js"
    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="http://fina.njugjug.my.id/res/jquery.min.js"></script>
-    <script type="text/javascript" src="http://fina.njugjug.my.id/res/Chart.min.js"></script>
+  <script type="text/javascript" src="https://finaiot.netlify.app/res/jquery.min.js"></script>
+    <script type="text/javascript" src="https://finaiot.netlify.app/res/Chart.min.js"></script>
 </head>
 <body>
   <canvas id="myChart" height="50"></canvas>
@@ -14,7 +14,7 @@
   <script>
     $(document).ready(function(){
       $.ajax({
-        url : "http://fina.njugjug.my.id/sensor1.php",
+        url : "https://finaiot.netlify.app/sensor1.php",
         type : "GET",
         dataType: "json",
         success : function(data){
